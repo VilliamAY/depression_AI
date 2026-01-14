@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+depression/node_modules/
+
+# Build outputs
+dist/
+depression/dist/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+config.env
+
+# Uploads (user uploaded files)
+depression_go/uploads/*
+!depression_go/uploads/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
